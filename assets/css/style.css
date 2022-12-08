@@ -10,6 +10,10 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-contact{
+background-color: #fff;
+}
+
 .bg-color-three-reasons{
     background-color: #fff;
 }
@@ -277,4 +281,36 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/*--------------------------------------------Contact Form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-size: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/*--------------------------------------------Media Queries*/
+@media(min-width 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: auto;
+        max-width: 50%;
+    }
 }
